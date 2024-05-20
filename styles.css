@@ -1,0 +1,63 @@
+/* Resetting default margin and padding */
+body, html, ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Styling left and right sections */
+.left-section, .right-section {
+    height: 100%;
+   
+}
+
+.left-section {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.right-section {
+    float: right;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Styling image */
+.left-section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Styling description */
+.description {
+    text-align: center;
+}
+
+/* Styling navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
